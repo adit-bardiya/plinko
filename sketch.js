@@ -43,7 +43,7 @@ function draw() {
   Engine.update(engine);
   background(0,0,0);  
   if(frameCount%60===0){
-    particles.push(new Particle(random(100,450),10));
+    particles.push(new Particle(random(50,450),10));
   }
   for(var i  = 0;i < particles.length;i++){
     particles[i].display();
